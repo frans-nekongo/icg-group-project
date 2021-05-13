@@ -1,4 +1,4 @@
-#group Assignment 1
+# group Assignment 1
 
 readme file for icg group 56
 
@@ -7,7 +7,7 @@ readme file for icg group 56
 *features*
 1. community hub
 - interaction of customers 
-- 
+- all social media links e.g whatsapp,intsagram
 - 
 2. review system
 - star based system for evaluating  customer satisfaction
@@ -22,6 +22,7 @@ readme file for icg group 56
 - discount will be awarded on fourth purchase
 5. online purchase 
 - of items in stock
+- pre-order option for items not in the store(yet)
 6. two versions
 - personnel version
 - customer version
