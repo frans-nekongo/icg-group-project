@@ -16,6 +16,7 @@ readme file for icg group 56
 - AI based interactive charachter 
 - frequently asked questions section with answers
 4. reward system
+- subscription required for eligibility(fee of 5N$ monthly)
 - more than 3 purchases <60
 - discount will be awarded on fourth purchase
 5. online purchase 
