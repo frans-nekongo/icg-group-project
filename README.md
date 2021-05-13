@@ -21,3 +21,6 @@ readme file for icg group 56
 - discount will be awarded on fourth purchase
 5. online purchase 
 - of items in stock
+6. two versions
+- personnel version
+- customer version
