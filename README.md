@@ -7,11 +7,12 @@ readme file for icg group 56
 *features*
 1. community hub
 - interaction of customers 
-- customers sate wants and needs
-- customers sate room for improvement
+- 
+- 
 2. review system
 - star based system for evaluating  customer satisfaction
-- 1-4 system
+- 1-4 star system
+- survey where customers state room for improvement and wants and needs
 3. self help centre
 - AI based interactive charachter 
 - frequently asked questions section with answers
