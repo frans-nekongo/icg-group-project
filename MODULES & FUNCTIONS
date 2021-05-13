@@ -1,21 +1,22 @@
-##store
-- items in stock
-- sales
-- pre-order
+STORE
+-items in stock
+-sales
+-pre-order
 -
 
-##community hub
+COMMUNITY HUB
+-social media
+-website
+
+HELP
+-frequently asked questions
+-AI assistant
+
+REWARDS
+-subscriptions
+-purchase track
 -
 
-##help
-- frequently asked questions
-- AI assistant
-
-##rewards
-- subscriptions
-- purchase track
--
-
-##feedback
-- review
-- survey
+FEEDBACK
+-review
+-survey
