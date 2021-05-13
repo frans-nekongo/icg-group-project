@@ -10,7 +10,22 @@ COMMUNITY HUB
 
 HELP
  frequently asked questions
-    
+   start
+      prompt (question)
+        get question
+            prompt FAQ.data for question
+              if question present in FAQ.data
+                prompt FAQ.data for answer to question
+                  get answer
+                    display answer
+             else if save question to FAQ.data
+               save question to FAQ.data_pending answer
+                 display "question is being proccesed will get back to you shortly"
+                end
+            end if
+        end
+    end                  
+
  AI assistant
 
 REWARDS
