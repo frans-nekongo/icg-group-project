@@ -1,7 +1,28 @@
 STORE
- items in stock
+
  sales
- pre-order
+   start
+     prompt for username
+       get username
+         display items_in_stock
+           if item is wanted
+             add to cart
+           else if
+             cancel
+            end if
+         end 
+       end 
+     end
+   end 
+
+ pre_order
+   start
+     prompt username
+       get username
+         display items in data.pre_order
+        end
+     end
+   end
 
 
 COMMUNITY HUB
@@ -9,7 +30,8 @@ COMMUNITY HUB
  website
 
 HELP
- frequently asked questions
+
+ frequently_asked_questions
    start
       prompt (question)
         get question
@@ -22,17 +44,76 @@ HELP
                save question to FAQ.data_pending answer
                  display "question is being proccesed will get back to you shortly"
                 end
-            end if
-        end
-    end                  
+             end if
+           end
+         end
+      end
+   end
+                      
 
  AI assistant
 
 REWARDS
+
  subscriptions
- purchase track
--
+   start
+     prompt for username
+       if username found
+         redirect to purchase track
+       else if 
+         prompt for username=x
+           insert value for x
+             create username
+               add username to data.subscription
+             end
+         end
+      end if
+     end
+   end   
+          
+ purchase_track
+   start
+     prompt for subscription for username.purchases
+       get username.purchases
+         display username.purchases=<60
+         end
+       end
+     end
+   end
+
+
 
 FEEDBACK
+
  review
+   start
+     prompt username
+       display star system
+         enter value =<1 or >=4
+           submit value
+             enter comment
+               save comment to data.comments
+                 display "thank you for the review it is highly appreciated"
+                 end
+               end
+             end
+           end
+         end
+       end
+     end
+   end
+   
+
  survey
+   start
+     display questionare
+       prompt answer questionare
+         get answer
+           save answer to data.questionare
+           end
+         end
+       end
+     end
+   end
+
+ 
