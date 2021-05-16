@@ -9,7 +9,7 @@ STORE
              add to cart
            else if
              cancel
-            end if
+           end if
          end 
        end 
      end
@@ -20,14 +20,33 @@ STORE
      prompt username
        get username
          display items in data.pre_order
-        end
+         end
+       end
      end
    end
 
 
 COMMUNITY HUB
- social media
+
+ social_media
+   start
+     prompt for link
+       get link
+         redirect to account
+         end
+       end
+     end
+   end
+
  website
+   start
+     prompt for link
+       get link
+         redirect to website
+         end
+       end
+     end
+   end
 
 HELP
 
