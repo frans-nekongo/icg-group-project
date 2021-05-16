@@ -20,11 +20,37 @@ STORE
      prompt username
        get username
          display items in data.pre_order
+            if item is wanted add to cart
+            else if cancel
+           end if
          end
        end
      end
    end
+ 
+ items_in_stock
 
+   new_arivals
+     start
+       prompt item code
+         get item code
+           save item code to data.items_in_stock
+           end
+         end
+       end
+     end
+
+   remove_item
+     start
+       prompt item code
+         get item code
+           prompt data.items_in_stock for item code
+             remove item code from data.items_in_stock 
+             end
+           end
+         end
+       end
+     end
 
 COMMUNITY HUB
 
