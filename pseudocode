@@ -78,7 +78,7 @@ HELP
 
  frequently_asked_questions
    start
-      prompt (question)
+      prompt question
         get question
             prompt FAQ.data for question
               if question present in FAQ.data
@@ -97,6 +97,12 @@ HELP
                       
 
  AI assistant
+   start 
+     launch AI
+     end
+   end
+
+     
 
 REWARDS
 
