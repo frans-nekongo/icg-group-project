@@ -40,3 +40,33 @@ readme file for icg group 56
 - personnel version
 - customer version
 
+*MODULES AND FUNCTIONS*
+
+STORE
+-items in stock
+-sales
+-pre-order
+-
+
+COMMUNITY HUB
+-social media
+-website
+
+HELP
+-frequently asked questions
+-AI assistant
+
+REWARDS
+-subscriptions
+-purchase track
+-
+
+FEEDBACK
+-review
+-survey
+
+ITEMS IN STOCK
+- new items
+- unavailable items
+
+WEBSITE URL
