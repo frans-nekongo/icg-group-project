@@ -42,31 +42,32 @@ readme file for icg group 56
 
 *MODULES AND FUNCTIONS*
 
-STORE
--items in stock
--sales
--pre-order
+**STORE**
+- items in stock
+- sales
+- pre-order
 -
 
-COMMUNITY HUB
--social media
--website
+**COMMUNITY HUB**
+- social media
+- website
 
-HELP
--frequently asked questions
--AI assistant
+**HELP**
+- frequently asked questions
+- AI assistant
 
-REWARDS
--subscriptions
--purchase track
+**REWARDS**
+- subscriptions
+- purchase track
 -
 
-FEEDBACK
--review
--survey
+**FEEDBACK**
+- review
+- survey
 
-ITEMS IN STOCK
+**ITEMS IN STOCK**
 - new items
 - unavailable items
 
-WEBSITE URL
+**WEBSITE URL**
+- 
