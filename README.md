@@ -4,7 +4,7 @@ readme file for icg group 56
 
 **Ayesha Beauty creation company app**
 
-*features*
+*FEATURES*
 
 1. community hub
 
@@ -39,6 +39,7 @@ readme file for icg group 56
 
 - personnel version
 - customer version
+
 
 *MODULES AND FUNCTIONS*
 
