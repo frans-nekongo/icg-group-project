@@ -161,7 +161,7 @@ FEEDBACK
    start
      prompt username
        display star system
-         enter value =<1 or >=4
+         enter value =<1 or >=5
            submit value
              enter comment
                save comment to data.comments
