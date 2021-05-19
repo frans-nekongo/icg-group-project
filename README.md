@@ -16,7 +16,7 @@ readme file for icg group 56
 2. review system
 
 - star based system for evaluating  customer satisfaction
-- 1-4 star system
+- 1-5 star system
 - survey where customers state room for improvement and wants and needs
 
 3. self help centre
