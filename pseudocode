@@ -1,6 +1,6 @@
 STORE
 
- sales
+ sales(){
    start
      prompt for username
        get username
@@ -14,8 +14,9 @@ STORE
        end 
      end
    end 
+  }
 
- pre_order
+ pre_order(){
    start
      prompt username
        get username
@@ -27,34 +28,49 @@ STORE
        end
      end
    end
- 
- items_in_stock
+  }
 
-   new_arivals
-     start
-       prompt item code
-         get item code
-           save item code to data.items_in_stock
+ items_in_stock(){
+   start
+     prompt for item code
+       get iem code
+         search data.stock for item code
+           if item code visable
+             print "item is in stock"
+           else print"item not in stock"  
+           end if
+         end
+       end
+     end
+   end
+  }
+ new_arivals(){
+    start
+      prompt for item code
+        get item code
+          save item code to data.items_in_stock
+         end
+       end
+     end
+   end
+  }
+
+  remove_item(){
+    start
+      prompt item code
+        get item code
+          prompt data.items_in_stock for item code
+            remove item code from data.items_in_stock 
            end
          end
        end
      end
-
-   remove_item
-     start
-       prompt item code
-         get item code
-           prompt data.items_in_stock for item code
-             remove item code from data.items_in_stock 
-             end
-           end
-         end
-       end
-     end
+   end
+  }
 
 COMMUNITY HUB
 
- social_media
+ social_media(){
    start
      prompt for link
        get link
@@ -63,8 +79,9 @@ COMMUNITY HUB
        end
      end
    end
+ }
 
- website
+ website(){
    start
      prompt for link
        get link
@@ -73,10 +90,11 @@ COMMUNITY HUB
        end
      end
    end
+ }
 
 HELP
 
- frequently_asked_questions
+ frequently_asked_questions(){
    start
       prompt question
         get question
@@ -94,19 +112,19 @@ HELP
          end
       end
    end
-                      
+  }                      
 
- AI assistant
+ AI assistant(){
    start 
      launch AI
      end
    end
-
+ }
      
 
 REWARDS
 
- subscriptions
+ subscriptions(){
    start
      prompt for username
        if username found
@@ -117,12 +135,14 @@ REWARDS
              create username
                add username to data.subscription
              end
+           end
          end
       end if
      end
    end   
-          
- purchase_track
+  }  
+
+ purchase_track(){
    start
      prompt for subscription for username.purchases
        get username.purchases
@@ -131,12 +151,13 @@ REWARDS
        end
      end
    end
+ }
 
 
 
 FEEDBACK
 
- review
+ review(){
    start
      prompt username
        display star system
@@ -153,9 +174,9 @@ FEEDBACK
        end
      end
    end
-   
+  } 
 
- survey
+ survey(){
    start
      display questionare
        prompt answer questionare
@@ -166,5 +187,4 @@ FEEDBACK
        end
      end
    end
-
- 
+ }
