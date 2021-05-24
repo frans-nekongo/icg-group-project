@@ -188,3 +188,23 @@ FEEDBACK
      end
    end
  }
+
+HUMAN RESOURCES
+
+  customer_care_line(){
+    start
+      display "TEL:+264-61-2367395
+      end
+   END
+  }
+
+  complaints(){
+    start
+      prompt for comment
+        get comment
+          save comment to comment.data_pending
+          end
+       end
+     end
+   end      
+  }
