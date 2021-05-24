@@ -2,6 +2,7 @@
 
 readme file for icg group 56
 
+
 **Ayesha Beauty creation company app**
 
 *FEATURES*
@@ -72,3 +73,8 @@ readme file for icg group 56
 
 **WEBSITE URL**
 - https://fransinator2002.wixsite.com/myicg56
+
+
+**work done**
+-creation of modules,functions,pseudocode,website,README,trello by(221004351_frans nekongo)
+-creation of flowcharts 
