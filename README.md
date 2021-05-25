@@ -83,3 +83,11 @@ Note: "Where a certain function/requirement cannot be implemented in scratch due
 limitation if any, justification should be provided...."
 
 justification=I have used an application for web design(wix) as my vision for the project was for it to be more web-based and scratch could not do that*
+
+files
+content
+-overall project microsoft WORD format
+- speudocode in - TXT format
+                - pseudo format(vscode extension)
+- README IN - markdown format
+            - txt format                
