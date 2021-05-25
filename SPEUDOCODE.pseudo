@@ -147,6 +147,10 @@ REWARDS
      prompt for subscription for username.purchases
        get username.purchases
          display username.purchases=<60
+           if purchases<=60 are ==4
+             give discount of half for (1)product
+             end 
+           end if 
          end
        end
      end
