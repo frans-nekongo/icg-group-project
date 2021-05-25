@@ -1,9 +1,7 @@
 STORE
 
  sales(){
-   
-
- items_in_stock(){start
+   start
      prompt for username
        get username
          display items_in_stock
@@ -31,9 +29,11 @@ STORE
      end
    end
   }
+
+ items_in_stock(){
    start
      prompt for item code
-       get item code
+       get iem code
          search data.stock for item code
            if item code visable
              print "item is in stock"
@@ -147,6 +147,10 @@ REWARDS
      prompt for subscription for username.purchases
        get username.purchases
          display username.purchases=<60
+           if purchases<=60 are ==4
+             give discount of half for (1)product
+             end 
+           end if 
          end
        end
      end

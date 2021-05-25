@@ -1,0 +1,214 @@
+STORE
+
+ sales(){
+   
+
+ items_in_stock(){start
+     prompt for username
+       get username
+         display items_in_stock
+           if item is wanted
+             add to cart
+           else if
+             cancel
+           end if
+         end 
+       end 
+     end
+   end 
+  }
+
+ pre_order(){
+   start
+     prompt username
+       get username
+         display items in data.pre_order
+            if item is wanted add to cart
+            else if cancel
+           end if
+         end
+       end
+     end
+   end
+  }
+   start
+     prompt for item code
+       get item code
+         search data.stock for item code
+           if item code visable
+             print "item is in stock"
+           else print"item not in stock"  
+           end if
+         end
+       end
+     end
+   end
+  }
+ new_arivals(){
+    start
+      prompt for item code
+        get item code
+          save item code to data.items_in_stock
+         end
+       end
+     end
+   end
+  }
+
+  remove_item(){
+    start
+      prompt item code
+        get item code
+          prompt data.items_in_stock for item code
+            remove item code from data.items_in_stock 
+           end
+         end
+       end
+     end
+   end
+  }
+
+COMMUNITY HUB
+
+ social_media(){
+   start
+     prompt for link
+       get link
+         redirect to account
+         end
+       end
+     end
+   end
+ }
+
+ website(){
+   start
+     prompt for link
+       get link
+         redirect to website
+         end
+       end
+     end
+   end
+ }
+
+HELP
+
+ frequently_asked_questions(){
+   start
+      prompt question
+        get question
+            prompt FAQ.data for question
+              if question present in FAQ.data
+                prompt FAQ.data for answer to question
+                  get answer
+                    display answer
+             else if save question to FAQ.data
+               save question to FAQ.data_pending answer
+                 display "question is being proccesed will get back to you shortly"
+                end
+             end if
+           end
+         end
+      end
+   end
+  }                      
+
+ AI assistant(){
+   start 
+     launch AI
+     end
+   end
+ }
+     
+
+REWARDS
+
+ subscriptions(){
+   start
+     prompt for username
+       if username found
+         redirect to purchase track
+       else if 
+         prompt for username=x
+           insert value for x
+             create username
+               add username to data.subscription
+             end
+           end
+         end
+      end if
+     end
+   end   
+  }  
+
+ purchase_track(){
+   start
+     prompt for subscription for username.purchases
+       get username.purchases
+         display username.purchases=<60
+           if purchases<=60 are ==4
+             give discount of half for (1)product
+             end 
+           end if 
+         end
+       end
+     end
+   end
+ }
+
+
+
+FEEDBACK
+
+ review(){
+   start
+     prompt username
+       display star system
+         enter value =<1 or >=5
+           submit value
+             enter comment
+               save comment to data.comments
+                 display "thank you for the review it is highly appreciated"
+                 end
+               end
+             end
+           end
+         end
+       end
+     end
+   end
+  } 
+
+ survey(){
+   start
+     display questionare
+       prompt answer questionare
+         get answer
+           save answer to data.questionare
+           end
+         end
+       end
+     end
+   end
+ }
+
+HUMAN RESOURCES
+
+  customer_care_line(){
+    start
+      display "TEL:+264-61-2367395
+      end
+   END
+  }
+
+  complaints(){
+    start
+      prompt for comment
+        get comment
+          save comment to comment.data_pending
+          end
+       end
+     end
+   end      
+  }
