@@ -78,3 +78,8 @@ readme file for icg group 56
 **work done**
 -creation of modules,functions,pseudocode,website,README,trello by(221004351_frans nekongo)
 -creation of flowcharts 
+
+Note: "Where a certain function/requirement cannot be implemented in scratch due to platform 
+limitation if any, justification should be provided...."
+
+justification=I have used an application for web design(wix) as my vision for the project was for it to be more web-based and scratch could not do that*
