@@ -74,8 +74,8 @@ readme file for icg group 56
 
 
 **work done**
--creation of modules,functions,pseudocode,website,README,trello by(221004351_frans nekongo)
--creation of flowcharts 
+- creation of modules,functions,pseudocode,website,README,trello by(221004351_frans nekongo)
+ 
 
 Note: "Where a certain function/requirement cannot be implemented in scratch due to platform 
 limitation if any, justification should be provided...."
