@@ -24,7 +24,8 @@ STORE
        get username
          display items in data.pre_order
             if item is wanted add to cart
-            else if cancel
+            else if 
+            cancel
            end if
          end
        end
