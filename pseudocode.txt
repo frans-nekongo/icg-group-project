@@ -212,3 +212,17 @@ HUMAN RESOURCES
      end
    end      
   }
+
+DATABASE
+  database(){
+    start
+      pompt for username
+        get username
+          if username found
+            redirect to database
+         endif
+       end
+     end
+   end
+ end
+ }
