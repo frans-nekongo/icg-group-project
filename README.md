@@ -1,7 +1,7 @@
 readme file for icg group 56
 
 
-**Ayesha Beauty creation company app**
+**Ayesha Beauty creation company **
 
 *FEATURES*
 
